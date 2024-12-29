@@ -1,0 +1,18 @@
+# requirements.txt
+
+# Core Python version (commented out since requirements.txt doesn't enforce Python version by default)
+# python>=3.7
+
+# Data manipulation and numerical packages
+pandas>=1.2
+numpy>=1.20
+
+# Machine learning
+scikit-learn>=1.0
+
+# Visualization
+matplotlib>=3.3
+seaborn>=0.11
+
+# Streamlit for the interactive UI
+streamlit>=1.0
