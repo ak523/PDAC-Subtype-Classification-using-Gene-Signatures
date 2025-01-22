@@ -118,25 +118,17 @@ Below is an example layout for this project. Adjust as needed:
 
 ```
 pdac-subtype-classification/
-│
-├── data/
-│   ├── GSE71729_PData.csv
-│   ├── GSE71729_phenotype_primary.csv
-│   └── moffitt_signitures.csv
-├── notebooks/
-│   ├── data_preprocessing.ipynb
-│   ├── feature_selection.ipynb
-│   └── model_training.ipynb
-│
-├── scripts/
-│   ├── preprocess_data.py
-│   ├── train_model.py
-│   └── inference.py
-│
-├── app.py                  # Main Streamlit application
-├── requirements.txt        # Dependencies
-├── README.md
-└── LICENSE
+├── .devcontainer/                # Dev container configuration (optional, for VS Code or Docker)
+├── .ipynb_checkpoints/           # Jupyter notebook checkpoints (auto-generated)
+├── Data/                         # Directory containing your PDAC-related datasets
+│   ├── GSE71729_expression.csv   # Example gene expression data
+│   ├── GSE71729_metadata.csv     # Example metadata (Primary samples, tumor subtypes, etc.)
+│   └── gene_signatures.csv       # Example signature file (lists of genes)
+├── PDAC.ipynb                    # Jupyter notebook for data exploration and model experimentation
+├── README.md                     # Project documentation (this file)
+├── UI.py                         # Streamlit or UI logic (front-end of the web application)
+├── main.py                       # Main entry point for running the app
+└── requirements.txt              # Python dependencies (libraries needed to run the project)
 ```
 
 ---
